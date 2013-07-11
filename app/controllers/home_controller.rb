@@ -1,14 +1,12 @@
 class HomeController < ApplicationController
   def index
-    @response = Instagram.media_popular
-    # @response = recent_instagram_images("30.2669","-97.7428")
-    @instagrams = @response.map do |item|
-      item.images.low_resolution.url
-    end
+    # @response = Instagram.media_popular
+    @photo_urls = recent_instagram_images("30.2669","-97.7428")
+    # binding.pry
+    # @instagrams = @response.map do |item|
+    #   item.images.low_resolution.url
+    # end
   end
- 
-
-
 
  
  private
