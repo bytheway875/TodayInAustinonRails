@@ -10,7 +10,9 @@ class HomeController < ApplicationController
 
  
  private
-
+  #Finds all recent images from instagram. Since the instagram API can be a little finicky, the method will rescue a BadRequest Error up to 5 times before giving up.
+  #latitude - latitude of your location as a float
+  #longitude - latitude of your location as a float
  def recent_instagram_images(latitude,longitude)
   counter = 0
   response = nil
