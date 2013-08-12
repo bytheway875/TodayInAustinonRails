@@ -1,3 +1,0 @@
-A very simple rails app that pulls recent pictures from the Austin area via the Instagram API. 
-
-I'd like to go back to this and include recent tweets from the Austin area, or tweets that mention Austin events so that the app becomes a quick snapshot of the interesting things going on in the Austin area.

@@ -1,0 +1,11 @@
+h1. Today In Austin
+
+A very simple rails app that pulls recent pictures from the Austin area via the Instagram API. Planned to be an app that can give a quick snapshot of events in Austin through the eyes of residents and visitors.
+
+h3. Features
+
+* Instagram API
+
+h3. Planned Extensions
+
+* Include recent tweets from the Austin area and tweets that mention Austin events.
